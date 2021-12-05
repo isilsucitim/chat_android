@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mercury</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="full_name">full name</string>
+    <string name="bio">bio</string>
+    <string name="login">LOGIN</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="register">REGISTER</string>
+    <string name="login_if_you_have">Login if you already have an account</string>
+    <string name="validation_error">Validation Error!!</string>
+    <string name="is_wrong">Username || Password is wrong!</string>
+</resources>
