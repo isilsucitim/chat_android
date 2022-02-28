@@ -1,6 +1,7 @@
 package com.isilsucitim.mercury.db
 
 import android.content.Context
+import com.isilsucitim.mercury.Constants.BASE_CHAT_URL
 import com.isilsucitim.mercury.Constants.SHARED_PREF_BIO
 import com.isilsucitim.mercury.Constants.SHARED_PREF_FULL_NAME
 import com.isilsucitim.mercury.Constants.SHARED_PREF_NAME
@@ -41,6 +42,13 @@ class Storage {
         fun getToken(context: Context): String {
             val prefs = context.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE)
             return prefs.getString(SHARED_PREF_TOKEN, "")!!
+        }
+
+        @JvmStatic
+        fun getChatUrl(context: Context): String {
+            val prefs = context.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE)
+            val token = prefs.getString(SHARED_PREF_TOKEN, "")!!
+            return "$BASE_CHAT_URL$token"
         }
     }
 

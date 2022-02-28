@@ -11,4 +11,7 @@
     <string name="login_if_you_have">Login if you already have an account</string>
     <string name="validation_error">Validation Error!!</string>
     <string name="is_wrong">Username || Password is wrong!</string>
+    <string name="login_with_google">LOGIN WITH GOOGLE</string>
+    <string name="login_with_facebook">LOGIN WITH FACEBOOK</string>
+    <string name="or">OR</string>
 </resources>

@@ -19,7 +19,7 @@ class SplashActivity : AppCompatActivity() {
         binding.splashAnimation.addAnimatorListener(object : Animator.AnimatorListener {
             override fun onAnimationEnd(animation: Animator?) {
                 if (Storage.isLogged(this@SplashActivity)) {
-                    startActivity(Intent(this@SplashActivity, AuthActivity::class.java))
+                    startActivity(Intent(this@SplashActivity, MainActivity::class.java))
                 } else {
                     startActivity(Intent(this@SplashActivity, AuthActivity::class.java))
                 }

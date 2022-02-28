@@ -9,5 +9,6 @@ object Constants {
     const val SHARED_PREF_TOKEN = "token"
     const val SHARED_PREF_BIO = "bio"
     const val SHARED_PREF_PHOTO_URL = "photo_url"
-    const val BASE_API_URL = "http://localhost:8000/"
+    const val BASE_API_URL = "https://efde-46-1-174-237.ngrok.io"
+    const val BASE_CHAT_URL = "wss://efde-46-1-174-237.ngrok.io/chat?token="
 }

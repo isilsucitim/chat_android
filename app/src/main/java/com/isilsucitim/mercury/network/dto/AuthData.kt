@@ -8,5 +8,6 @@ data class AuthData(
     var username: String? = null,
     var fullname: String? = null,
     @SerializedName("notification_key") var notificationKey: String? = null,
-    var bio: String? = null
+    var bio: String? = null,
+    @SerializedName("firebase_uid") var firebaseUid:String? = null
 )
